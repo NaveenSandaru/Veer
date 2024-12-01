@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Stylesheets/shareLocationPage.css?v=1.1">
+    <link rel="stylesheet" href="../Stylesheets/HeaderFooter.css?v=1.1">
+    <link rel="shortcut icon" href="../Images/HomePage/logo2.png" type="image/x-icon">
+    <title>Share Location</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"></div>
+        <div class="navbtnlist">
+            <ul class="list">
+                <li class="listItem"><a href="../../index.html" class="navLink">Home</a></li>
+                <li class="listItem"><a href="../Pages/ServicesPage.html" class="navLink">Services</a></li>
+                <li class="listItem"><a href="../Pages/GalleryPage.html" class="navLink">Gallery</a></li>
+                <li class="listItem"><a href="../Pages/Locations.php" class="navLink">Locations</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="search" class="searchBox" placeholder="Search place..">
+            <button type="submit" class="searchbtn"></button>
+        </div>
+    </div>
+    <!-- <button class="share" onclick="gotoSharePage2()">SHARE</button> -->
+    <div class="cover">
+        
+        <div class="content">
+            
+            <form action="../Database/shareLocation.php" method="post" enctype="multipart/form-data">
+                <img src="" for="dp" id="pic">
+                <br>
+                <input type="file" accept="image/*" id="dp" name="dp" required >
+                <br>
+                <label for="name" class="namel">Name  </label>
+                <br>
+                <input type="text" name="name" id="name" class="namet" required aria-autocomplete="none">
+                <br>
+                <textarea name="description" id="description" class="dest" aria-autocomplete="none" placeholder="Description"></textarea>
+                <br>
+                <label for="district" class="disl">District </label>
+                <br>
+                <select name="district" id="district" required class="dist">
+                    <option value="Ampara">Ampara</option>
+                    <option value="Anuradhapura">Anuradhapura</option>
+                    <option value="Badulla">Badulla</option>
+                    <option value="Baricaloa">Batticaloa</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Galle">Galle</option>
+                    <option value="Gampaha">Gampaha</option>
+                    <option value="Hambanthota">Hambanthota</option>
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Kegalle">Kegalle</option>
+                    <option value="Kilinochchi">Kilinochchi</option>
+                    <option value="Kurunegala">Kurunegala</option>
+                    <option value="Mannar">Mannar</option>
+                    <option value="Matale">Matale</option>
+                    <option value="Matara">Matara</option>
+                    <option value="Monaragala">Monaragala</option>
+                    <option value="Mullativu">Mullativu</option>
+                    <option value="Nuwawra Eliya">Nuwawra Eliya</option>
+                    <option value="Polonnaruwa">Polonnaruwa</option>
+                    <option value="Puttalam">Puttalam</option>
+                    <option value="Rathnapura">Rathnapura</option>
+                    <option value="Trincomalee">Trincomalee</option>
+                    <option value="Vavuniya">Vavuniya</option>
+                </select>
+                <br>
+                <input type="submit" value="Share Location" class="submitButton">
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="fRow">
+            <div class="fcol fbussines">
+                <div class="blogo "></div>
+                <p class="fdis">Veer - Your travelling partner.
+                    <br>
+                    <br>
+                    Committed to excellence, we strive to empower your journey through reliability, quality, and
+                    unparalleled
+                    service.
+                </p>
+            </div>
+            <div class="fcol">
+                <h3>Links</h3>
+                <hr>
+                <ul class="fList">
+                    <li><a href="../../index.html" class="flink">Home</a></li>
+                    <li><a href="../Pages/ServicesPage.html" class="flink">Services</a></li>
+                    <li><a href="../Pages/GalleryPage.html" class="flink">Gallery</a></li>
+                    <li><a href="../Pages/Locations.php" class="flink">Locations</a></li>
+                    <li><a href="../Pages/AboutUsPage.html" class="flink">About Us</a></li>
+                </ul>
+            </div>
+            <div class="fcol">
+                <h3>Social</h3>
+                <hr>
+                <div class="sLinks">
+                    <a href="">
+                        <div class="social yt"></div>
+                    </a>
+                    <a href="">
+                        <div class="social fb"></div>
+                    </a>
+                    <a href="">
+                        <div class="social insta"></div>
+                    </a>
+                    <a href="">
+                        <div class="social tw"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="fcol tagdiv">
+                <h3>Tags</h3>
+                <hr>
+                <button class="tags">Rivers</button>
+                <button class="tags">Water falls</button>
+                <button class="tags">Lakes</button>
+                <button class="tags">Rock climbing</button>
+                <button class="tags">Rafting</button>
+                <button class="tags">Matara</button>
+                <button class="tags">Deniyaya</button>
+                <button class="tags">Nuwawra Eliya</button>
+                <button class="tags">Kandy</button>
+                <button class="tags">Scuba</button>
+                <button class="tags">Scuba Diving</button>
+                <button class="tags">Safari</button>
+            </div>
+        </div>
+        <hr>
+    </footer>
+    <script src="../Scripts/HeaderFooterScript.js"></script>
+</body>
+
+</html>
