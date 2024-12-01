@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: auto;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background: url(../Images/HomePage/menu1.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 4vh;
+}
+.list{
+    margin-left: 5vh;
+}
+.image{
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.district{
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+.description{
+    margin-top: 2vh;
+    font-size: 2.5vh;
+}
+.content{
+    width: 90%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-left: 5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-items: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    border: 2px solid white;
+    border-radius: 5vh;
+
+}
+.locations{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    border: 2px solid white;
+    height: 65vh;
+    width: 50vh;
+    margin: 5vh;
+    border-radius: 5vh;
+    padding: 2vh;
+}
+.description p{
+    height: 20vh;
+    overflow-y: auto;
+}
+.image img {
+    width: 100%; /* Image will take the full width of the container */
+    height: auto; /* Keeps the aspect ratio intact */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 10px; /* Optional: Add rounded corners if desired */
+}

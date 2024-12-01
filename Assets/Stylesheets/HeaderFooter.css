@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media only screen and (min-width: 320px) and (max-width:759px) {
+    .footer {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+        width: 100%;
+        height: 8vh;
+        background: #00000056;
+        position: absolute;
+        top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        top: 0px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+    }
+
+    .navbtnlist {
+        position: absolute;
+        left: 0px;
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+    }
+
+    .navLink {
+        text-decoration: none;
+        margin-right: 2vh;
+        margin-left: 2vh;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 1.5vh;
+        color: white;
+        transition: color ease-in-out 0.3s;
+    }
+
+    .navLink:hover {
+        border-top: solid 2px #B3F500;
+        color: #B3F500;
+        text-shadow: 0px 0px 2px #B3F500;
+    }
+
+    .active {
+        color: #B3F500;
+        text-shadow: 0px 0px 2px #B3F500;
+    }
+
+    .search {
+        background-color: #fffdfd93;
+        display: flex;
+        left: 1%;
+        height: 3vh;
+        padding: 2PX;
+        width: 30%;
+        border-radius: 20px;
+        border: solid 1px #ffd;
+        position: absolute;
+        margin-bottom: -16vh;
+    }
+
+    .searchBox {
+        width: 80%;
+        height: 35px;
+
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-left: 4%;
+
+    }
+
+    .searchbtn {
+
+        width: 35PX;
+        height: 35PX;
+        background-image: url(../Images/HomePage/search.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        background-color: transparent;
+    }
+
+    .share {
+        position: fixed;
+        top: 10%;
+        right: 1%;
+        width: 10vh;
+        height: 35px;
+        background: transparent;
+        border: solid 2px white;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .share:hover {
+        border: solid 2px hsl(0, 0%, 100%);
+        color: #ffffff;
+        background-color: #42EC00;
+    }
+}
+
+@media only screen and (min-width: 760px) and (max-width:1023px) {
+    .footer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar {
+        position: relative;
+        width: 100%;
+        height: 8vh;
+        background: #00000056;
+        position: absolute;
+        top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 100;
+        top: 0px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+    }
+
+    .navbtnlist {
+        position: absolute;
+        left: 0px;
+
+    }
+
+    .list {
+        display: flex;
+        list-style: none;
+    }
+
+    .navLink {
+        text-decoration: none;
+        margin-right: 40px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 14px;
+        color: white;
+        transition: color ease-in-out 0.3s;
+    }
+
+    .navLink:hover {
+        border-top: solid 2px #B3F500;
+        color: #B3F500;
+        text-shadow: 0px 0px 2px #B3F500;
+    }
+
+    .active {
+        color: #B3F500;
+        text-shadow: 0px 0px 2px #B3F500;
+    }
+
+    .search {
+        background-color: #fffdfd93;
+        display: flex;
+        right: 1%;
+        height: 4vh;
+        padding: 2px;
+        width: 20%;
+        border-radius: 20px;
+        border: solid 1px #ffd;
+        position: absolute;
+    }
+
+    .searchBox {
+        width: 80%;
+        height: 4vh;
+
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-left: 4%;
+
+    }
+
+    .searchbtn {
+
+        width: 35PX;
+        height: 35PX;
+        background-image: url(../Images/HomePage/search.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: none;
+        background-color: transparent;
+        zoom: 80%;
+    }
+
+    .share {
+        position: fixed;
+        top: 10%;
+        right: 1%;
+        width: 10%;
+        height: 35px;
+        background: rgba(255, 255, 255, 0.8);
+        filter: blur();
+        border: solid 2px white;
+        color: black;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    .share:hover {
+        border: solid 2px hsl(0, 0%, 100%);
+        color: #ffffff;
+        background-color: #42EC00;
+    }
+
+    /*---------------------------------------------------------------------Footer----------------------------------------------------------*/
+    .footer {
+        width: 96%;
+        background-color: #181818;
+        border-radius: 5% 5% 0% 0%;
+        padding: 2%;
+        background: linear-gradient(top to bottom, #42EC00, #031503);
+        position: absolute;
+        bottom: 0px;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .fRow {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .fcol {
+        padding: 2%;
+        width: 20%;
+        height: 92%;
+
+        color: white;
+        text-align: center;
+    }
+
+    .blogo {
+        width: 20vh;
+        height: 20vh;
+        background: url(../Images/HomePage/logo2.png);
+        background-size: cover;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vh;
+        border-radius: 50px;
+    }
+
+    .sLinks {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        margin-top: 3vh;
+        justify-content: space-around;
+
+    }
+
+    .fList {
+        list-style: none;
+        margin-top: 3vh;
+
+    }
+
+    .flink {
+        text-decoration: none;
+        font-weight: 400;
+        margin-top: 2%;
+        color: white;
+        text-align: center;
+        margin-left: -10%;
+        transition: all ease-in-out 0.3s;
+    }
+
+    .flink:hover {
+        border-bottom: 1px solid #42EC00;
+        margin-left: 10px;
+        color: #42EC00;
+    }
+
+    .social {
+        width: 48px;
+        height: 48px;
+        background-color: #ffffff;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        border-radius: 32px;
+        float: left;
+        transition: all ease-in-out;
+    }
+
+    .social:hover {
+        width: 50px;
+        height: 50px;
+    }
+
+    .yt {
+        background-image: url(../Images/HomePage/ty.png);
+    }
+
+    .fb {
+        background-image: url(../Images/HomePage/fb.png);
+    }
+
+    .insta {
+        background-image: url(../Images/HomePage/insta.png);
+    }
+
+    .tw {
+        background-image: url(../Images/HomePage/tw.png);
+    }
+
+    .tagdiv hr{
+        margin-bottom: 2vh;
+    }
+
+    .tags {
+        padding: 2px;
+        background: transparent;
+        border: solid 2px #ffffff;
+        border-radius: 5px;
+        color: #ffffff;
+        transition: color, border ease-in-out 0.3s;
+    }
+
+    .tags:hover {
+        color: #42EC00;
+        border: solid 2px #42EC00;
+        padding: 3px;
+    }
+
+    .developer {
+        width: 90%;
+        color: white;
+        background-color: #031503;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        padding: 5px;
+        border: solid 2px #ffffff;
+        background: transparent;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .deve {
+        position: relative;
+        margin: auto;
+        letter-spacing: 2px;
+        font-weight: 300;
+
+    }
+
+    .color {
+        background-color: #181818;
+        background-color: #976037;
+        color: #76F500;
+        color: #649E39;
+        color: #184F09;
+        color: #BE7D5D;
+        color: #031503;
+        color: #25546B;
+        color: #42EC00;
+        color: #B3F500;
+    }
+}

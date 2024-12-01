@@ -1,0 +1,883 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color:  #031503;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    position: relative;
+    height: 390vh;
+}
+button{
+    transition: all ease-in-out 0.3s;
+}
+button:hover{
+    cursor: pointer;
+}
+/* hero section css----------------------------------------------------- */
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../Images/HomePage/menu6.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    transition: background-image 1s ease-in-out;
+}
+
+.mainbox{
+    width: 90%;
+    min-height: 80%;
+    /* background-color: #00000052; */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bHeddingBox{
+    width: 60%;
+    /* background-color: #000000b3; */
+    position: relative;
+  
+}
+
+.bMenuBox{
+    width: 35%;
+    padding: 2%;
+    background-color:#03150300;
+    
+}
+
+.hedding{
+    color: white;
+    font-size: 250%;
+    letter-spacing: 5px;
+    margin-top: -1%;
+    -webkit-text-stroke: #031503 2px;
+    text-shadow: 0px 0px 10px #181818;
+
+}
+
+.hedding span{
+    color: #42EC00;
+    font-size: 350%;    
+}
+
+.discription{
+    color: white;
+    margin-top: -5%;
+    margin-left: 5%;
+    font-size: 3vh;
+    letter-spacing: 2px;
+    font-weight: bold;
+    -webkit-text-stroke: black 1px;
+}
+
+.search2{
+    visibility: hidden;
+}
+
+.btnArray{
+    width: 50%;
+    height: 40px;
+    
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tbtn{
+    height: 100%;
+    width: 48%;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    
+}
+.sign{
+    background:transparent;
+    border:solid #42EC00;
+    color: #42EC00; 
+}
+
+.sign:hover{
+    background-color: #42EC00;
+    color: black;
+    border: solid white;
+    box-shadow:0px 0px 4px #42EC00;
+}
+
+.topRated{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 70%;
+    height: 28%;
+    background-color: #43ec002d;
+    justify-content: space-around;
+    padding: 1%;
+    display: flex;
+    border: #42EC00 solid 1px;
+    border-radius: 4px;
+}
+
+.register:hover{
+    background-color:#42EC00;
+    color: black;
+    border: solid white;
+}
+
+.place{
+    width:48%;
+    height:100%;
+    background-color: #976037;
+    color: WHITE;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.place1{
+    background: url(../Images/LocationsPage/a5.jpg);
+    background-size: cover;
+}
+
+.place2{
+    background: url(../Images/LocationsPage/a4.jpg);
+    background-size: cover;
+}
+.place H4{
+    position: relative;
+    margin-top:40% ;
+    margin-left: 5%;
+}
+
+.place p{
+    position: relative;
+    margin-top:-10% ;
+    margin-left: 5%;
+
+}
+
+.menu1{
+    width:100%;
+    min-height: 30%;
+    background-color: #43ec0000;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.menu2{
+    width:100%;
+    min-height: 30%;
+    background-color: #43ec0000;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -15%;
+    margin-left: -8%;
+}
+
+.menuItem{
+    width: 18%;
+    height: 11.5vh;
+    background-color: transparent;
+    transform: rotate(45deg);
+    border: double 5px white;
+    box-shadow: 0px 0px 10px #42EC00;
+    position: relative;
+    overflow: hidden;
+}
+.menuItem img{
+    position: absolute;
+    top: -50px;
+    left: -15px;
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+    transform: rotate(-45deg);
+    transition: opacity 0.5s ease-in-out;
+}
+.menuItem:hover{
+    border: double 5px #000000;
+    box-shadow: 0px 0px 10px black;
+    
+}
+.dis{
+    width: 100%;
+    height: 40%;
+    background-color: #43ec0033;
+    display: flex;
+    justify-content: space-around;
+    display: contents;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    
+}
+.dis h3{
+    position: relative;
+    margin-top: 10%;
+    
+}
+
+
+.featureBox{
+    
+    width: 90%;
+    height: 100vh;
+    padding: 5%;
+    
+}
+
+.feature{
+
+    width: 100%;
+    height: 100vh;
+    border-left:solid 2px #42EC00 ;
+    border-right: solid 2px #42EC00 ;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.serviceHedding{
+    color: #42EC00;
+    margin-left: 5%;
+    letter-spacing: 2px;
+    border-bottom:2px white solid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.serviceHedding span{
+    color: #ffffff;
+    font-size: 200%;
+
+}
+
+.features{
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+    height: 50vh;
+    background-color: #976037;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+.features h2{
+    color: white; 
+    position: absolute;
+    left: 10%;
+    bottom: 1%;
+}
+.features:hover{
+    box-shadow: 0px 0px 5px white;
+}
+.feature1{
+    background: url(../Images/ServicesPage/img3.jpeg);
+    background-size: cover;
+}
+.feature2{
+    background: url(../Images/ServicesPage/hotel2.webp);
+    background-size: cover;
+}
+.feature3{
+    background: url(../Images/ServicesPage/hotel4.webp);
+    background-size: cover;
+}
+.Servicesbtn{
+    
+    margin-left:5%;
+    margin-top: 10%;
+    width: 90%;
+    height: 5%;
+    text-align: center;
+    background-color: #42EC00;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+
+.Servicesbtn:hover{
+    
+   
+    background-color: #42df04;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px white;
+    border: solid white 2px;
+  
+}
+
+.serviceDis{
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin-top: 5%;
+    font-weight: 400;
+    margin-left: 5%;
+    top: 5%;
+    font-size: 12px;
+    letter-spacing: 1px;
+   
+}
+
+.whyFollowus{
+    height: 90vh;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../Images/HomePage/travelGuid.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2.5%;
+    margin-bottom: 5%;
+
+}
+
+.tamplate{
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    background-color: #00000045;
+}
+
+.aboutImg{
+    float:left;
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff90;
+    border-radius: 0% 5% 5% 0%;
+}
+
+.aboutPoint{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #42483f55;
+    border-radius: 5%;
+    margin-left: 2%;
+    color: white;
+    font-weight: 400;
+    padding: 0% 5% 0% 5%;
+}
+
+.aImg{
+    position: relative;
+    background-image: url(../Images/HomePage/traveler1.png);
+    width: 60%;
+    height: 70%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.aboutbtn{
+    position: relative;
+    width: 80%;
+    height: 8%;
+    background-color: #42EC00;
+    border-radius: 10px;
+    margin-left: 10%;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow:0px 0px 19px black ;
+
+}
+
+
+.alistdiv{
+    position: relative;
+    margin-top: 5%;
+}
+
+.aList2{
+    display: none;
+}
+
+
+
+
+
+
+
+@media(max-width:1024px){
+ /* nav section----------------------------------- */
+    .navbar{
+        height: 8%; 
+    }
+
+    .logo{
+        width: 10%;  
+    }
+    .navbtnlist{
+        
+        margin-left: 2%;
+    
+        width: 55%;
+      
+    }
+
+    .search{
+        background-color: #ffffff91;
+        display: flex;
+        margin-left: 0%;
+        height: 60%;
+        padding: 2PX;
+        width: 25%;
+      
+    
+        
+        
+    }
+
+    /* end nav section */
+/* hero section */
+    .mainbox{
+        min-height: 80%;
+    }
+
+    .topRated{
+       
+        width: 80%;
+        
+    }
+    .place H4{
+        position: relative;
+        margin-top:55% ;
+        margin-left: 5%;
+    }
+    
+    .arrow{
+        margin-top: 28%;
+        width: 13%;
+        height: 20%;
+    }
+    .menuItem{
+        width: 20%;
+        height: 8vh;
+  
+    }
+
+    .menu1{
+        width:100%;
+        min-height: 20%;
+        
+    }
+/* end hero section */
+/* content */
+
+.aImg{
+
+    width: 70%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.alistdiv{
+    font-size: 14px;
+}
+
+}
+
+
+@media(max-width:768px){
+    /* nav section */
+    .navbar{
+        height: 7%;
+    }
+    
+    .logo{
+        width: 18%;  
+    }
+    .navbtnlist{ 
+        width: 80%;
+        margin-left: 5%;
+    }
+    .search{
+        display: none;
+    }
+
+/* end nav section */
+/* hero section */
+    .mainbox{
+        min-height: 82%;
+        display:list-item;
+        text-align: center;
+    
+    }
+    .bHeddingBox{
+        margin-top: 4%;
+        width: 100%;
+
+        height: 400px;
+    }
+    
+    .bMenuBox{
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+    .hedding{
+        color: white;
+        font-size: 200%;
+        letter-spacing: 5px;
+    
+    }
+    
+    .hedding span{
+        color: #42EC00;
+        font-size: 300%;    
+    }
+    .search2{
+        visibility: visible;
+        background-color: #ffffffc3;
+        width: 50%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 35px;
+        border-radius: 20px;
+        display: flex;
+
+    }
+    .searchBox2{
+        width: 82%;
+        margin-left: 3%;
+        height: 90%;
+        margin-top: 1%;
+        background: transparent;
+        border: none;
+        outline: none;
+
+    }
+    .btnArray{
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topRated{
+        display: none;
+    }
+
+    .arrow{
+        margin-top: 7%;
+        width: 10%;
+        height: 35%;
+    }
+
+    .menu1{ 
+        margin-top: -10%;
+    }
+    .menu2{
+        width:100%;
+        min-height: 30%;
+        margin-top: 0%;
+        margin-left: -8%;
+    }
+
+    .menuItem{
+        width: 18%;
+        height: 11vh;
+  
+    }
+    .dis{
+     position: relative;
+     margin-top: 20px;  
+    }
+
+/* end hero section */
+/* content */
+    .features{
+        height: 40vh;  
+        margin-top: 10%;
+    }
+ 
+    .Servicesbtn{
+    
+        margin-left:5%;
+        margin-top: 20%;
+        
+    }
+    
+    .aboutImg{
+        overflow: hidden;
+        width: 100%;
+        border-radius: 5%;
+    }
+    
+    .serviceDis{  
+        margin-top: 70%;
+          
+    }
+
+    .aboutPoint{
+        display: none;
+
+    }
+
+    .aImg{
+        margin-top: -2%;
+        width: 30%;
+        height: 30%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aList2{
+        display: contents;
+        width: 80%;
+        color: #000000;
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center
+    }
+    .aList{
+       margin-top: -10%;
+    }
+
+    /* footer */
+
+    .tagdiv{
+        display: none;
+    }
+
+}
+
+
+
+@media(max-width:480px){
+    /* nav section */
+    .navbar{
+        height: 7%;
+    
+    }
+    .logo{
+        width: 20%;  
+        position: relative;
+    }
+    .navbtnlist{
+        display: none;
+        width: 0px;
+        font-size: 0px;
+    }
+
+    .navebtn{
+        width: 8%;
+        height: 60%;
+        margin-left: 63%;
+        position: relative;
+        border: solid 2px #031503;
+        border-radius: 5px;
+        padding:  0px 2px 12px 2px;
+
+    }
+    .navhr{
+        border: none;
+        height: 1px;
+        background-color: #031503;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        width: 90%;
+       
+
+    }
+        
+    .search{
+        display: none;
+    }
+
+    /* end nav section */
+    /* hero section */
+    .share{
+        display: none;
+    }
+    .mainbox{
+        min-height: 82%;
+        display: block;
+        text-align: center;
+    }
+    .bHeddingBox{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .bMenuBox{
+        width: 100%;
+        height: 150px;
+        margin-top: 10%;
+        margin-left: 7%;
+        
+    }
+
+    .hedding{
+        color: white;
+        font-size: 100%;
+        letter-spacing: 5px;
+        -webkit-text-stroke: #031503 1px;
+    
+    }
+    
+    .hedding span{
+        color: #42EC00;
+        font-size: 250%;    
+    }
+
+    .discription{
+
+        font-size: 10px;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+    .search2{
+        
+        width: 80%;
+        height: 25px;
+        border-radius: 20px;
+        display: flex;
+
+    }
+    .searchBox2{
+        width: 82%;
+        margin-left: 3%;
+        height: 90%;
+        margin-top: 1%;
+        background: transparent;
+        border: none;
+        outline: none;
+
+    }
+    .btnSize{
+        width: 10%;
+        height: 100%;
+        opacity: 50%;
+    }
+    .btnArray{
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnArray{
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        height: 25px;
+        margin-top: 2%;
+        
+    }
+
+    .tbtn{
+        letter-spacing: 1px;
+        font-weight: 600;
+        border: 1px solid ;
+        font-size: 10px;
+        
+        
+    }
+    .topRated{
+        display: none;
+    }
+    .menuItem{
+        width: 15%;
+        height: 9vh;
+  
+    }
+    .menu1{
+        position: relative;
+        width:80%;
+
+        min-height: 30%;
+        margin-top: 0%;
+        margin-left: 6.5%;
+    }
+
+    .menu2{
+        position: relative;
+        width:80%;
+        min-height: 30%;
+        margin-top: 0%;
+        margin-left: -10%;
+    }
+    .dis{
+        display: none;
+    }
+
+    /* end hero section */
+    /* content */
+    .features{
+        margin-top: 5%;
+        height: 30vh;
+        
+    }
+
+    .Servicesbtn{
+    
+        margin-left:5%;
+        margin-top: 5%;
+        width: 90%;
+        height: 5%;
+        text-align: center;
+        background-color: #42EC00;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        border-radius: 10px;
+    }
+
+    .aImg{
+        width: 80%;
+        height: 60%;
+        
+    }
+    .aList2{
+        display: none;
+    }
+ 
+
+    .fRow{
+        display: contents;
+
+    }
+   
+    .blogo{
+        display: block;
+    }
+
+    .fcol{
+        width: 90%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fdis{
+        display: none;
+    }
+}
+
+
